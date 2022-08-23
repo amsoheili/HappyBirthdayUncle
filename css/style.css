@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DynaPuff", cursive;
+}
+
+header {
+  background: url("/img/Balloon.jpg") no-repeat center center/cover;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 5rem;
+  color: #fff;
+  line-height: 4rem;
+}
+
+footer {
+  font-family: "Times New Roman", Times, serif;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  font-size: 2rem;
+}
